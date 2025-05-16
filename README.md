@@ -2,6 +2,9 @@
 
 _A curated collection of custom overlays, posters, templates, and playlist artwork for use with [Kometa](https://github.com/Kometa-Team/Kometa). Maintained by RubiconTV to support structured, stylized, and standards-compliant media organization in Plex and Jellyfin environments._
 
+[![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-kometa.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-kometa)
+[![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-kometa.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/rubicon/rubicon-kometa-assets/releases)
+
 ---
 
 ## Project Status
@@ -44,15 +47,16 @@ _A curated collection of custom overlays, posters, templates, and playlist artwo
 ├── playlists/             # Playlist-specific YAML configurations
 ├── scripts/               # Utility scripts for syncing and automation
 └── templates/             # Collection, overlay, and playlist templates
-
+```
 
 ⸻
 
 Usage Instructions
-	1.	Clone this repository to your Kometa host machine.
-	2.	Reference the desired YAMLs and assets in your Kometa config.yaml using Git paths or local mount paths.
-	3.	Use posters or overlays in collections via url_poster: or url_background: keys.
-	4.	Customize the template files to fit your media taxonomy or style preferences.
+
+1. Clone this repository to your Kometa host machine.
+2. Reference the desired YAMLs and assets in your Kometa config.yaml using Git paths or local mount paths.
+3. Use posters or overlays in collections via url_poster: or url_background: keys.
+4. Customize the template files to fit your media taxonomy or style preferences.
 
 ⸻
 
@@ -65,4 +69,3 @@ This project is licensed under the MIT License unless otherwise specified. Indiv
 About RubiconTV
 
 RubiconTV develops and maintains modern, automated, and standards-compliant tools and visual assets to streamline media organization for Plex, Jellyfin, and other open-source platforms. For more, visit rubicontv.com.
-```
